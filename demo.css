@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+    height: 700px;;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url('./images/bg.jpg');
+    background-size: 100% 100%;
+}
+.start{
+    position: absolute;
+    left: 50px;
+    width: 170px;
+    height: 140px;
+    background-image: url("./images/startGame.png");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.main{
+    width: 500px;
+    height: 500px;
+    margin: 10px auto;
+    border-top: 1px solid #B25F27;
+    border-left: 1px solid #B25F27;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    transform: perspective(800px) rotateX(45deg);
+    display: none;
+}
+.box{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -80px;
+    width: 160px;
+    height: 40px;
+    color: #333;
+    font-size: 20px;
+    font-weight: bolder;
+    display: none;
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.2);
+    display: none;
+}
+.alert{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 450px;
+    height: 300px;
+    /* background-image: url("./images/success.png"); */
+    background-size: 100% 100%;   
+    border-radius: 20px;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background-image: url("images/closeBtn.png");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.block{
+    width: 49px;
+    height: 49px;
+    border-bottom: 1px solid #B25F27;
+    border-right: 1px solid #B25F27;
+    background-image: url("images/cao.jpg");
+    background-size: 100% 100%;
+    float: left;
+    box-shadow: 0 0 4px #000 inset;
+}
+.show{
+    background-image: url('images/dilei.jpg');
+    background-size: 100% 100%;
+}
+.num{
+    background: #ECD0A1;
+    font-size : 18px;
+    font-weight: bold;
+    line-height: 49px;
+   text-align: center;
+}
+.flag{
+    background-image: url('images/hongqi.jpg');
+    background-size: 100% 100%;
+}
